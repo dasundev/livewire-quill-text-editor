@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Dasundev\LivewireQuillTextEditor;
 
 use Dasundev\LivewireQuillTextEditor\Http\Livewire\QuillTextEditor;
