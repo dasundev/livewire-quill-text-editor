@@ -32,7 +32,7 @@ For additional information, kindly refer to the [Quill documentation](https://qu
 Now you can use the text editor component as you like.
 ```html
 <livewire:quill-text-editor
-        wire:model="content"
+        wire:model.live="content"
         theme="bubble" />
 ```
 
