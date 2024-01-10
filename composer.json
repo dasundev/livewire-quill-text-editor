@@ -1,9 +1,9 @@
 {
   "name": "dasundev/livewire-quill-text-editor",
-  "description": "A powerful livewire rich text editor component that build top of Quill.",
+  "description": "A powerful livewire rich text editor component built top of Quill.",
   "keywords": [
     "livewire",
-    "text-editor"
+    "editor"
   ],
   "license": "MIT",
   "authors": [
