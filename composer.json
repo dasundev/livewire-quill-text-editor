@@ -26,12 +26,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Dasundev\\LivewireDropzone\\": "src"
+      "Dasundev\\LivewireQuillTextEditor\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Dasundev\\LivewireDropzone\\Tests\\": "tests"
+      "Dasundev\\LivewireQuillTextEditor\\Tests\\": "tests"
     }
   },
   "scripts": {
