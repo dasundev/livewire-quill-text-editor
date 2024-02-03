@@ -13,7 +13,7 @@ use Livewire\Component;
 class QuillTextEditor extends Component
 {
     #[Modelable]
-    public string $value = '';
+    public string | null $value = '';
 
     #[Locked]
     public string $quillId;
