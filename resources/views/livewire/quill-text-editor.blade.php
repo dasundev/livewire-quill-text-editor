@@ -10,7 +10,7 @@
     quill.root.innerHTML = $wire.get('value');
     quill.on('text-change', function () {
         let value = document.getElementsByClassName('ql-editor')[0].innerHTML;
-        @this.set('value', value)
-    })
+        @this.set('value', value);
+    });
 </script>
 @endscript
