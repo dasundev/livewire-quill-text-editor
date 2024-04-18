@@ -11,7 +11,7 @@
     quill.root.innerHTML = $wire.get('value');
     
     quill.on('text-change', function () {
-        let value = document.querySelector('#' + @js($quillId)).firstChild.innerHTML;
+        let value = quill.root.innerHTML;
         @this.set('value', value);
     });
 </script>
