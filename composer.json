@@ -51,5 +51,7 @@
         "Dasundev\\LivewireQuillTextEditor\\LivewireQuillTextEditorServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
