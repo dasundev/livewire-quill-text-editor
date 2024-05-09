@@ -9,7 +9,7 @@ A powerful livewire rich text editor component that build top of Quill.
 
 ## Documentation
 
-You can find the documentation [here](https://dasun.dev/docs/livewire-quill-text-editor/), which provides detailed information on installing and using the package.
+You can find the documentation [here](https://dasun.dev/docs/livewire-quill-text-editor), which provides detailed information on installing and using the package.
 
 ## Changelog
 
