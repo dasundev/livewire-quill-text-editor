@@ -5,7 +5,7 @@
 @script
 <script>
     const quill = new Quill('#' + @js($quillId), {
-        readOnly: @js($readOnly),
+        readOnly: @js($readOnly), 
         theme: @js($theme)
     });
     
