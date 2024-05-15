@@ -5,32 +5,15 @@
 @script
 <script>
     const quill = new Quill('#' + @js($quillId), {
+        readOnly: @js($readOnly),
         theme: @js($theme)
     });
     
     quill.root.innerHTML = $wire.get('value');
     
-    let timeout = null;
-
-    function handleTextChange() {
-        if (timeout !== null) {
-            clearTimeout(timeout);
-        }
-
-        timeout = setTimeout(function() {
-            let value = quill.root.innerHTML;
-            @this.set('value', value);
-        }, 1000);
-    }
-
-    quill.on('text-change', function() {
-        handleTextChange();
-    });
-
-    quill.on('selection-change', function() {
-        if (quill.hasFocus()) {
-            handleTextChange();
-        }
+    quill.on('text-change', function () {
+        let value = quill.root.innerHTML;
+        @this.set('value', value);
     });
 </script>
 @endscript
