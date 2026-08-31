@@ -19,6 +19,7 @@ class QuillTextEditor extends Component
     public string $quillId;
 
     public string $theme;
+    public bool $readOnly = false; 
 
     public function mount(string $theme = 'snow'): void
     {
