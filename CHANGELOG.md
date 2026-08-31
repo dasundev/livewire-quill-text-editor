@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.0.0 - 2026-08-31
+
+### What's Changed
+
+* added livewire 4 compatibility by @marcorombach in https://github.com/dasundev/livewire-quill-text-editor/pull/19
+
+### New Contributors
+
+* @marcorombach made their first contribution in https://github.com/dasundev/livewire-quill-text-editor/pull/19
+
+**Full Changelog**: https://github.com/dasundev/livewire-quill-text-editor/compare/v1.0.4...v2.0.0
+
 ## v1.0.4 - 2026-02-03
 
 **Full Changelog**: https://github.com/dasundev/livewire-quill-text-editor/compare/v1.0.3...v1.0.4
